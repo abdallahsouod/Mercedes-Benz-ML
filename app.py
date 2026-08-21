@@ -80,7 +80,7 @@ def load_data():
     pred_path = "test_predictions.csv"
     
     if not os.path.exists(test_path):
-        test_path = "../data/test.csv"
+        test_path = "../test.csv"
     if not os.path.exists(pred_path):
         pred_path = "../test_predictions.csv"
         
